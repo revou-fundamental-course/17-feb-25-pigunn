@@ -57,6 +57,24 @@ main>header{
     gap: 24px;
 }
 
+.main-banner {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-img-1 {
+    background-image: url(https://picsum.photos/310);
+}
+
+.banner-img-2 {
+    background-image: url(https://picsum.photos/320);
+}
+
+.banner-img-3 {
+    background-image: url(https://picsum.photos/330);
+}
+
 .main-container {
     border: 1px solid;
     height: 400px;
@@ -91,4 +109,15 @@ main>header{
     height: 300px;
     align-content: center;
     text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+/* responsive design */
+@media only screen and (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+    }
 }
